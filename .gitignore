@@ -1,0 +1,33 @@
+# PyInstaller / Build outputs
+build/
+dist/
+*.exe
+*.zip
+*.manifest
+*.spec.bak
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*.class
+
+# Local user profile data
+chrome_profile_*
+NektoBridgeData/
+*.log
+*.tmp
+*.lock
+lockfile
+SingletonLock
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
