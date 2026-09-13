@@ -24,34 +24,6 @@
 
 ---
 
-## 🚀 Быстрый запуск (из исходного кода)
-
-1. Клонируйте репозиторий:
-   `ash
-   git clone https://github.com/USERNAME/REPOSITORY.git
-   cd REPOSITORY
-   `
-
-2. Установите зависимости:
-   `ash
-   pip install -r requirements.txt
-   `
-
-3. Запустите приложение:
-   `ash
-   python bridge_app.py
-   `
-
----
-
-## 📦 Сборка исполняемого файла (.exe)
-
-Для сборки автономного .exe с помощью PyInstaller выполните команду:
-
-`ash
-python -m PyInstaller --noconfirm NektoBridge.spec
-`
-
 Готовый файл будет находиться в директории dist\NektoBridge\NektoBridge.exe.
 
 ---
